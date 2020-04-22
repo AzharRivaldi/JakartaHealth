@@ -73,7 +73,7 @@ public class HospitalUmumActivity extends AppCompatActivity implements HospitalU
     private void loadJSON() {
         progressDialog.show();
         AndroidNetworking.get("http://api.jakarta.go.id/v1/rumahsakitumum")
-                .addHeaders("Authorization", "YOUR TOKEN")
+                .addHeaders("Authorization", "5h30dB4K4Uwuhj4KkmHmFuOgeIeo+XxK4jKRm/v5lNNfbGfsYx2wB2D4IKQWaSu7")
                 .setPriority(Priority.HIGH)
                 .build()
                 .getAsJSONObject(new JSONObjectRequestListener() {
